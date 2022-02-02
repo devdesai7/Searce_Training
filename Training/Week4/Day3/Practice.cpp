@@ -77,12 +77,13 @@ int main()
 
 TNode BST ;
 TNode *root = NULL;
-root=BST.InsertNode(root,50);
+root=BST.InsertNode(root,10);
 BST.InsertNode(root,30);
 BST.InsertNode(root,20);
-BST.InsertNode(root,40);
-BST.InsertNode(root,70);
+BST.InsertNode(root,50);
 BST.InsertNode(root,60);
+BST.InsertNode(root,90);
+BST.InsertNode(root,40);
 BST.InsertNode(root,80);
 BST.inorder(root);
 cout << endl;
